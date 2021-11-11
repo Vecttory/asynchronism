@@ -21,13 +21,13 @@ const somethingWillHappen2 = () => {
     })
 }
 
-// somethingWillHappen()
-//     .then(response => console.log(response))
-//     .catch(error => console.log (error));
+somethingWillHappen()
+    .then(response => console.log(response))
+    .catch(error => console.log (error));
 
-// somethingWillHappen2()
-//     .then(response => console.log(response))
-//     .catch(error => console.log (error));
+somethingWillHappen2()
+    .then(response => console.log(response))
+    .catch(error => console.log (error));
 
 
 Promise.all([somethingWillHappen(), somethingWillHappen2()])
